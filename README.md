@@ -1,0 +1,2 @@
+# lua
+lua tutorial translation
