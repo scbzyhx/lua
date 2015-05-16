@@ -1,0 +1,18 @@
+#Lua while 循环  
+
+在 Lua 语言中，只要 while 循环条件为真，则 while 语句就会一直执行，直到 while 循环条件为假为止。  
+
+#语法  
+
+Lua 语言中 while 循环的语法如下所示：  
+
+```
+while(condition)
+do
+   statement(s)
+end
+```  
+
+其中，statement(s) 可能只是一条语句也可能是一个语句块。条件可以是任何表达式，表达式傎不为零时，条件为真，循环继续。  
+循环为假时，程序执行 while 后面的代码。
+
