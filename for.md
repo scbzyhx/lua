@@ -26,7 +26,7 @@ end
 </ol>
 
 ##流图  
-![](http://www.tutorialspoint.com/lua/images/lua_for_loop.jpg)  
+![](images/for_loop.jpg)  
 
 ##示例  
 

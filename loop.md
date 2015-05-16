@@ -3,7 +3,9 @@
 虽然一般情况下，语句都是顺序执行的：函数内的第一条语句先执行，然后是第二条，依次类推。  但是还是可能存在需要执行一段代码多次的情况。
 为此编程语言提供各式各样的控制结构实现复杂的程序执行路径。  
 其中，循环语句可以让我们可以执行一条或一组语句多次。下图中所描述的是大多数语言中循环语句的形式：  
-here is an image  
+
+![](images/loop.jpg)  
+
 Lua 语言提供了如下几种循环结构语句。点击链接可查看详细说明。  
 <table>
 	<tr>
@@ -11,19 +13,19 @@ Lua 语言提供了如下几种循环结构语句。点击链接可查看详细�
 		<th>描述</th>
 	</tr>
 	<tr>
-		<td><a href="">while 循环</a></td>
+		<td><a href="while.md">while 循环</a></td>
 		<td>先检测条件，条件为真时再执行循环体，直到条件为假时结束。</td>
 	</tr>
 	<tr>
-		<td><a href="">for 循环</a></td>
+		<td><a href="for.md">for 循环</a></td>
 		<td>执行一个语句序列多次，简化管理循环变量的代码。</td>
 	</tr>
 		<tr>
-		<td><a href="">repeate...until 循环</a></td>
+		<td><a href="repeat-until.md">repeat...until 循环</a></td>
 		<td>重复执行一组代码语句，知道 until 条件为真时为止。</td>
 	</tr>
 	<tr>
-		<td><a href="">嵌套循环</a></td>
+		<td><a href="nested-loop.md">嵌套循环</a></td>
 		<td>可以在一个循环语句中再使用一个循环语句。</td>
 	</tr>	
 </table>  
@@ -38,7 +40,7 @@ Lua 支持如下所示的循环控制语句。点击下面的链接查看详细�
 		<th>描述</th>
 	</tr>
 		<tr>
-		<td><a href="">break</a></td>
+		<td><a href="break.md">break</a></td>
 		<td>break 语句结束循环，并立即跳转至循环或 switch 语句的后面一条语句处开始执行。</td>
 	</tr>	
 </table>

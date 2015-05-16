@@ -17,7 +17,7 @@ until( condition )
 如果条件为假，则控制回到循环开始再次执行循环体。这个过程一直重复到条件为真时结束。
 
 ##流程图  
-![](http://www.tutorialspoint.com/lua/images/lua_repeat_until_loop.jpg)
+![](images/repeat_until_loop.jpg)
 
 ##示例  
 ```

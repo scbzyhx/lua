@@ -18,7 +18,7 @@ end
 
 ##流程图  
 
-![](http://www.tutorialspoint.com/lua/images/lua_while_loop.jpg)  
+![](images/while_loop.jpg)  
 
 请注意，while 循环的关键点在于循环可能根本不会执行。当检测条件为假是，程序会跳过 while 循环体而直接执行 while 后的第一条语句。  
 
