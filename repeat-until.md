@@ -1,7 +1,7 @@
 #repeat...until 循环  
 
-与 for 和 while 循环中先检测条件再执行决定是否挂执行循环不同，repeat...until 先执行循环再检测条件判断是否再次执行。  
-repeat...until 与 while 循环很相似，除了 repeat...until 循环一定会执行一次之外。  
+与 for 和 while 循环中先检测条件再决定是否执行循环不同，repeat...until 先执行循环再检测条件判断是否再次执行。  
+除了 repeat...until 循环一定会执行一次之外，repeat...until 与 while 循环很相似。  
 
 ##语法  
 

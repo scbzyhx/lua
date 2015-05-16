@@ -18,11 +18,11 @@ Lua 语言提供了如下几种循环结构语句。点击链接可查看详细�
 	</tr>
 	<tr>
 		<td><a href="for.md">for 循环</a></td>
-		<td>执行一个语句序列多次，简化管理循环变量的代码。</td>
+		<td>执行一个语句序列多次，可以简化管理循环变量的代码。</td>
 	</tr>
 		<tr>
 		<td><a href="repeat-until.md">repeat...until 循环</a></td>
-		<td>重复执行一组代码语句，知道 until 条件为真时为止。</td>
+		<td>重复执行一组代码语句，直到 until 条件为真为止。</td>
 	</tr>
 	<tr>
 		<td><a href="nested-loop.md">嵌套循环</a></td>
@@ -41,7 +41,7 @@ Lua 支持如下所示的循环控制语句。点击下面的链接查看详细�
 	</tr>
 		<tr>
 		<td><a href="break.md">break</a></td>
-		<td>break 语句结束循环，并立即跳转至循环或 switch 语句的后面一条语句处开始执行。</td>
+		<td>break 语句结束循环，并立即跳转至循环或 switch 语句后的第一条语句处开始执行。</td>
 	</tr>	
 </table>
 
