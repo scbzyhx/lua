@@ -13,15 +13,15 @@ Lua 语言提供了如下几类决策语句。点击下面的链接查看详细�
 		<th>描述</th>
 	</tr>
 	<tr>
-		<td><a href = "" >if 语句</a></td>
+		<td><a href = "./if-statement.md" >if 语句</a></td>
 		<td>if 语句中包括一个布尔表达式和一个或多个语句。</td>
 	</tr>
 	<tr>
-		<td><a href = "" >if...else 语句</a></td>
+		<td><a href = "./if-else-if-statement.md" >if...else 语句</a></td>
 		<td>if 语句也可以选择和 esle 语句一起使用。当条件为假时，则执行 else 语句。</td>
 	</tr>
 	<tr>
-		<td><a href = "" >嵌套 if 语句</a></td>
+		<td><a href = "./nested-if-statement.md" >嵌套 if 语句</a></td>
 		<td>在 if 语句或者 else if 语句内使用　if 或者 else if。</td>
 	</tr>
 </table>

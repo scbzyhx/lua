@@ -99,7 +99,7 @@ io.close(file)
 	</tr>
 	<tr>
 		<td>"*a"</td>
-		<td>读入从当前文件内容开始的整个文件内容。</td>
+		<td>读入从当前文件指针位置开始的整个文件内容。</td>
 	</tr>
 	<tr>
 		<td>"*i"</td>
@@ -125,22 +125,22 @@ io.close(file)
 我们也会经常用到显示文件描述符，因为它允许我们同时操作多个文件。这些函数与隐式文件描述符非常相似，只不过我们在这儿使用 file:function_name 而不是使用 io.function_name 而已。下面的例子使用显示文件描述符实现了与前面例子中完全相同的功能。  
 　
 ```
--- Opens a file in read mode
+-- 只读模式打开文件
 file = io.open("test.lua", "r")
 
--- prints the first line of the file
+-- 输出文件的第一行
 print(file:read())
 
--- closes the opened file
+-- 关闭打开的文件
 file:close()
 
--- Opens a file in append mode
+-- 以追加模式打开文件 
 file = io.open("test.lua", "a")
 
--- appends a word test to the last line of the file
+-- 添加内容到文件的尾行
 file:write("--test")
 
--- closes the open file
+-- 关闭打开的文件
 file:close()
 ```  
 
@@ -152,7 +152,7 @@ file:close()
 
 在显式文件描述符中，打开文件的描述与读文件时的参数与隐式文件描述中的完全相同。另外的常用方法包括：
 <ul>
-	<li>file:seek(option whence,option offset)：此函用于移动文件指针至新的位置。参数 whence 可以设置为 “set”，"cur","end"，offset 为一个偏移量值，描述相对位置。如果第一个参数为 "set"，则相对位置从文件开始处开始计算；如果第一个参数为 "cur"，则相对位置从文件当前位置处开始计算； 如果第一个参数为 "end"，则相对位置从文件末尾处开始计算。函数的参数默认值分别为 "cur" 和 ０，因此不传递参数调用此函数可以获得文件的当前位置。</li>
+	<li>file:seek(option whence,option offset)：此函数用于移动文件指针至新的位置。参数 whence 可以设置为 “set”，"cur","end"，offset 为一个偏移量值，描述相对位置。如果第一个参数为 "set"，则相对位置从文件开始处开始计算；如果第一个参数为 "cur"，则相对位置从文件当前位置处开始计算； 如果第一个参数为 "end"，则相对位置从文件末尾处开始计算。函数的参数默认值分别为 "cur" 和 ０，因此不传递参数调用此函数可以获得文件的当前位置。</li>
 	<li>file:flush()：清空输出缓冲区。</li>
 	<li>io.lines(optional file name)：提供一个循环迭代器以遍历文件，如果指定了文件名则当遍历结束后将自动关闭该文件；若使用默认文件，则遍历结束后不会自动关闭文件。</li>
 </ul>
